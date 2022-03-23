@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+  <meta charset="UTF-8">
+  <title>MayFlix</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+	<header>
+		<h1 class="page-title">Mayflix</h1>
+	</header>
+
+	<main>
+		<section class="filmesFavoritos">
+			<div class="container">
+				<h3 class="tituloSection">Filmes Favoritos</h3>
+				<ul class="lista" data-listaFilmes>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="seriesFavoritas">
+			<div class="container">
+				<h3 class="tituloSection">Séries Favoritas</h3>
+				<ul class="lista" data-listaSeries>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="sugestoes">
+			<h3>Quer me indicar algo?</h3>
+			<form action="">
+				<input type="text" placeholder="Título" class="sugestoes-campo">
+				<div>
+					<input type="radio" name="midia" value="filme" id="filme">
+					<label for="filme">Filme</label>
+					<input type="radio" name="midia" value="serie" id="serie">
+					<label for="serie">Série</label>
+				</div>
+				<input type="text" placeholder="Url da imagem de capa" class="sugestoes-campo">
+				<button>Adicionar</button>	
+			</form>
+		</section>
+		
+		<section class="filmesSugeridos">
+			<div class="container">
+				<h3 class="tituloSection">Filmes Sugeridos</h3>
+				<ul class="lista" data-lista-filmesSugeridos>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="seriesSugeridas">
+			<div class="container">
+				<h3 class="tituloSection">Séries Sugeridas</h3>
+				<ul class="lista" data-lista-seriesSugeridas>
+				</ul>
+			</div>
+		</section>
+		
+	</main>
+
+	<footer>
+		<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+		<a href="https://alura.com.br/" target="_blank">
+			<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+		</a>
+
+	</footer>
+	<!-- partial -->
+	<script  src="./script.js"></script>
+
+</body>
+</html>

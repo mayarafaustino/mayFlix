@@ -1,0 +1,117 @@
+body {
+	font-family: "Roboto Mono", monospace;
+	text-align: center;
+	background-color: #000;
+	
+}
+
+img {
+	max-height: 250px;
+}
+
+.page-title {
+	
+	color: #CCC;
+	font-size: 48px;
+	font-weight: bold;
+	
+}
+
+
+/*main*/
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	padding: 4rem 0;
+	margin: 4rem 0;
+	
+}
+.filmesFavoritos {	
+	background-image: url("https://images.pexels.com/photos/2251206/pexels-photo-2251206.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #000000aa;
+	border-radius: 16px;
+}
+
+.tituloSection {
+	color: #DDD;
+	
+}
+.lista {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	width: 100%;
+	padding: 0 2rem 3rem 2rem;
+}
+
+.liClasse{
+	
+	margin: .5rem .5rem;
+	display: flex;
+	flex-direction: column;
+	opacity: 0.6;
+}
+.liClasse:hover {
+	opacity: 1;
+}
+.liClasse p{
+	color: #BBB;
+	margin: 0;
+	padding: .5rem .5rem;
+}
+.liClasse img{
+	border: 3px solid #2220;
+}
+.liClasse img:hover {
+	border: 3px solid #DDD;
+	border-radius: 8px;
+	
+}
+
+
+.seriesFavoritas {	
+	background-image: url("https://images.pexels.com/photos/6833307/pexels-photo-6833307.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+}
+
+
+
+/*footer*/
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+}
+.page-logo {
+	width: 200px;
+	
+}
+.alura-logo {
+	width: 60px;
+}
